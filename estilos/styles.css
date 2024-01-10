@@ -1,0 +1,38 @@
+p {
+    font-size: 20px;
+}
+
+/* Criando um ID */
+#p-primeiro {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Criando uma Classe */
+.p-color-red {
+    color: red;
+}
+
+img {
+    width: 500px;
+}
+
+.container {
+    /* Maneira de Organizar os códigos em tela */
+    display: flex;
+    /* Alinhamento em Vertical - Eixo Y*/
+    align-items: center;
+    /* Alinhamento em Horizontal - Eixo X*/
+    justify-content: flex-start;
+
+    /* Espaçamento externo */
+    margin: 20px;
+    /* Limite de uma tag, ou no caso, a div */
+    border: 5px red solid;
+    /* Espaçamento interno (entre o conteudo e borda) */
+    padding: 20px;
+}
+
+.conteudo {
+    width: 500px;
+}
